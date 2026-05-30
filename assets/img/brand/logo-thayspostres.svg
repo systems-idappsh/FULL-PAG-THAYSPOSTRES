@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180" role="img" aria-labelledby="title desc">
+  <title id="title">thayspostres</title>
+  <desc id="desc">Logotipo textual decorativo en paleta rosa pastel.</desc>
+  <defs>
+    <linearGradient id="mark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f28ab5"/>
+      <stop offset="100%" stop-color="#b84c7c"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="180" rx="36" fill="#fff7fb"/>
+  <circle cx="92" cy="90" r="54" fill="#ffe0ec"/>
+  <path d="M69 98 C75 60, 111 60, 117 98 C121 124, 101 137, 93 137 C85 137, 65 124, 69 98Z" fill="url(#mark)"/>
+  <path d="M76 76 C91 54, 108 62, 114 81" fill="none" stroke="#7b294f" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+  <text x="166" y="95" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#5b263d">thayspostres</text>
+  <text x="170" y="130" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#8b5a6e">postres personalizados</text>
+</svg>

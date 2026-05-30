@@ -1,0 +1,17 @@
+{
+  "name": "thayspostres",
+  "short_name": "thayspostres",
+  "description": "Postres personalizados para regalar, celebrar y endulzar momentos especiales.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff7fb",
+  "theme_color": "#e879a7",
+  "icons": [
+    {
+      "src": "assets/img/brand/logo-thayspostres.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo | thayspostres</title>
+  <meta name="description" content="Catálogo de productos de ejemplo de thayspostres con filtros por categoría y consulta directa por WhatsApp.">
+  <link rel="canonical" href="https://example.com/thayspostres/catalogo.html">
+  <meta property="og:title" content="Catálogo | thayspostres">
+  <meta property="og:description" content="Catálogo de productos de ejemplo de thayspostres con filtros por categoría y consulta directa por WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/thayspostres/catalogo.html">
+  <meta property="og:image" content="assets/img/brand/og-thayspostres.svg">
+  <meta property="og:site_name" content="thayspostres">
+  <meta name="theme-color" content="#e879a7">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="assets/img/brand/logo-thayspostres.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio de thayspostres">
+        <span class="brand__mark" aria-hidden="true">♡</span>
+        <span>
+          <span class="brand__name">thayspostres</span>
+          <span class="brand__tagline">Postres personalizados</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-site-nav aria-label="Navegación principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" data-nav-link href="index.html">Inicio</a></li>
+          <li><a class="site-nav__link" data-nav-link href="catalogo.html">Catálogo</a></li>
+          <li><a class="site-nav__link" data-nav-link href="pedidos.html">Pedidos</a></li>
+          <li><a class="site-nav__link" data-nav-link href="galeria.html">Galería</a></li>
+          <li><a class="site-nav__link" data-nav-link href="faq.html">FAQ</a></li>
+          <li><a class="site-nav__link" data-nav-link href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--whatsapp btn--small" href="#" data-whatsapp="general">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <div class="page-hero__content">
+          <nav class="breadcrumb" aria-label="Ruta de navegación">
+            <a href="index.html">Inicio</a>
+            <span aria-hidden="true">/</span>
+            <span>Catálogo</span>
+          </nav>
+          <span class="section__eyebrow">Catálogo de referencia</span>
+          <h1>Productos de ejemplo para consultar por WhatsApp</h1>
+          <p class="lead">Cada producto está marcado como [SUPUESTO]. No se publican precios porque disponibilidad, tamaño, sabor, presentación y personalización deben confirmarse por mensaje.</p>
+          <div class="page-hero__meta">
+            <span class="badge badge--warning">Sin precios inventados</span>
+            <span class="badge badge--soft">WhatsApp configurable</span>
+            <span class="badge">Datos separados en JS</span>
+          </div>
+        </div>
+        <aside class="soft-panel doc-callout">
+          <h2>Antes de pedir</h2>
+          <p data-message-field="availabilityNote">Precios, disponibilidad, detalles y personalización se confirman por mensaje.</p>
+          <a class="btn btn--whatsapp" href="#" data-whatsapp="custom-order">Consultar pedido personalizado</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <div class="catalog-toolbar">
+          <div>
+            <span class="section__eyebrow">Filtros</span>
+            <h2>Explora por categoría</h2>
+            <p class="section__intro">El catálogo se renderiza desde <code>assets/js/data-products.js</code> y puede crecer sin modificar el HTML.</p>
+          </div>
+          <div class="catalog-search">
+            <label for="catalog-search">Buscar producto</label>
+            <input id="catalog-search" type="search" data-catalog-search placeholder="Ejemplo: brownies, regalo, evento">
+          </div>
+        </div>
+
+        <div class="filter-bar" data-catalog-filters aria-label="Filtros de catálogo"></div>
+        <p class="catalog-status" data-catalog-status aria-live="polite"></p>
+        <div class="grid grid--3" data-catalog-grid aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__title">thayspostres</p>
+          <p>Postres personalizados para regalar, celebrar y endulzar momentos especiales.</p>
+          <p class="text-small">Datos como teléfono, ubicación, horarios, precios, disponibilidad y métodos de pago deben validarse antes de publicar.</p>
+        </div>
+
+        <div>
+          <h2 class="sr-only">Secciones</h2>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="catalogo.html">Catálogo</a></li>
+            <li><a class="footer__link" href="pedidos.html">Pedidos personalizados</a></li>
+            <li><a class="footer__link" href="galeria.html">Galería</a></li>
+            <li><a class="footer__link" href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="sr-only">Contacto</h2>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="#" data-whatsapp="general">WhatsApp: <span data-contact-field="whatsappDisplay">[SUPUESTO A VALIDAR]</span></a></li>
+            <li><a class="footer__link" href="#" data-social="instagram">Instagram: <span data-contact-field="instagramReference">[SUPUESTO A VALIDAR]</span></a></li>
+            <li><a class="footer__link" href="#" data-social="facebook">Facebook</a></li>
+            <li><span class="footer__link">Ubicación: <span data-brand-field="locationApprox">[SUPUESTO A VALIDAR]</span></span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-current-year></span> thayspostres. Sitio estático preparado para producción.</span>
+        <span>Sin precios, horarios ni dirección exacta no validada.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="#" data-whatsapp="general" aria-label="Contactar por WhatsApp">
+    <span aria-hidden="true">☘</span>
+  </a>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data-products.js"></script>
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/catalog.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

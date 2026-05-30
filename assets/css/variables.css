@@ -1,0 +1,73 @@
+/* ==========================================================================
+   thayspostres · Variables globales
+   ========================================================================== */
+
+:root {
+  --color-primary-50: #fff7fb;
+  --color-primary-100: #ffe7f1;
+  --color-primary-200: #ffd6e7;
+  --color-primary-300: #f8bfd6;
+  --color-primary-400: #f3a6c8;
+  --color-primary-500: #e879a7;
+  --color-primary-600: #c85c8d;
+  --color-primary-700: #9e3f68;
+  --color-primary-800: #752b4d;
+  --color-primary-900: #5b263d;
+
+  --color-cream-50: #fffaf0;
+  --color-cream-100: #fff4dc;
+  --color-cream-200: #ffe9b7;
+
+  --color-brown-500: #9b634c;
+  --color-brown-700: #6f3f30;
+
+  --color-white: #ffffff;
+  --color-text: #3b2430;
+  --color-muted: #765b68;
+  --color-soft: #fff9fc;
+  --color-border: #f2d6e3;
+  --color-success: #2f7d54;
+  --color-warning: #a06a00;
+  --color-danger: #ad2f4f;
+
+  --font-base: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+
+  --font-size-xs: 0.78rem;
+  --font-size-sm: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.08rem;
+  --font-size-lg: 1.24rem;
+  --font-size-xl: clamp(1.6rem, 5vw, 2.5rem);
+  --font-size-2xl: clamp(2.15rem, 8vw, 4.5rem);
+
+  --line-height-tight: 1.12;
+  --line-height-base: 1.7;
+
+  --spacing-2xs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4.5rem;
+
+  --radius-xs: 0.5rem;
+  --radius-sm: 0.8rem;
+  --radius-md: 1.15rem;
+  --radius-lg: 1.6rem;
+  --radius-xl: 2.2rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 1rem 2.6rem rgba(126, 49, 82, 0.12);
+  --shadow-card: 0 1.25rem 3.25rem rgba(126, 49, 82, 0.14);
+  --shadow-focus: 0 0 0 0.22rem rgba(232, 121, 167, 0.35);
+
+  --container: 1180px;
+  --container-narrow: 850px;
+  --header-height: 76px;
+
+  --transition-fast: 160ms ease;
+  --transition-base: 240ms ease;
+}

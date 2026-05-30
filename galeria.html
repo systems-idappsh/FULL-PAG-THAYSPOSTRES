@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería | thayspostres</title>
+  <meta name="description" content="Galería organizada de placeholders locales para thayspostres, lista para reemplazarse con fotografías reales autorizadas.">
+  <link rel="canonical" href="https://example.com/thayspostres/galeria.html">
+  <meta property="og:title" content="Galería | thayspostres">
+  <meta property="og:description" content="Galería organizada de placeholders locales para thayspostres, lista para reemplazarse con fotografías reales autorizadas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/thayspostres/galeria.html">
+  <meta property="og:image" content="assets/img/brand/og-thayspostres.svg">
+  <meta property="og:site_name" content="thayspostres">
+  <meta name="theme-color" content="#e879a7">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="assets/img/brand/logo-thayspostres.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio de thayspostres">
+        <span class="brand__mark" aria-hidden="true">♡</span>
+        <span>
+          <span class="brand__name">thayspostres</span>
+          <span class="brand__tagline">Postres personalizados</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-site-nav aria-label="Navegación principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" data-nav-link href="index.html">Inicio</a></li>
+          <li><a class="site-nav__link" data-nav-link href="catalogo.html">Catálogo</a></li>
+          <li><a class="site-nav__link" data-nav-link href="pedidos.html">Pedidos</a></li>
+          <li><a class="site-nav__link" data-nav-link href="galeria.html">Galería</a></li>
+          <li><a class="site-nav__link" data-nav-link href="faq.html">FAQ</a></li>
+          <li><a class="site-nav__link" data-nav-link href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--whatsapp btn--small" href="#" data-whatsapp="general">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <div class="page-hero__content">
+          <nav class="breadcrumb" aria-label="Ruta de navegación">
+            <a href="index.html">Inicio</a>
+            <span aria-hidden="true">/</span>
+            <span>Galería</span>
+          </nav>
+          <span class="section__eyebrow">Galería visual</span>
+          <h1>Referencias organizadas para mostrar productos reales</h1>
+          <p class="lead">En esta fase se usan placeholders locales para evitar imágenes externas con copyright. Antes de publicar, reemplaza cada imagen por fotos reales autorizadas.</p>
+          <div class="page-hero__meta">
+            <span class="badge badge--soft">Responsive</span>
+            <span class="badge">Sin imágenes externas</span>
+            <span class="badge badge--warning">Fotos reales pendientes</span>
+          </div>
+        </div>
+
+        <aside class="soft-panel">
+          <h2>Reemplazo recomendado</h2>
+          <p>Usa imágenes propias en formato WebP, JPG o PNG, con nombres descriptivos y textos alternativos claros.</p>
+          <a class="btn btn--secondary" href="docs/CONTENT_GUIDE.md">Ver guía de contenido</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <span class="section__eyebrow">Categorías visuales</span>
+        <h2>Filtra las referencias</h2>
+        <div class="filter-bar" aria-label="Filtros de galería">
+          <button class="filter-btn is-active" type="button" data-gallery-filter="all" aria-pressed="true">Todo</button>
+          <button class="filter-btn" type="button" data-gallery-filter="pasteles" aria-pressed="false">Pasteles</button>
+          <button class="filter-btn" type="button" data-gallery-filter="galletas" aria-pressed="false">Galletas</button>
+          <button class="filter-btn" type="button" data-gallery-filter="brownies" aria-pressed="false">Brownies</button>
+          <button class="filter-btn" type="button" data-gallery-filter="regalos" aria-pressed="false">Regalos</button>
+          <button class="filter-btn" type="button" data-gallery-filter="eventos" aria-pressed="false">Eventos</button>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item" data-gallery-category="pasteles">
+            <img src="assets/img/gallery/galeria-pasteles.svg" alt="Placeholder para fotografía real de pastel personalizado" loading="lazy" data-fallback="assets/img/placeholders/product-placeholder.svg">
+            <figcaption class="gallery-item__caption">
+              <strong>Pasteles personalizados [SUPUESTO]</strong>
+              <p class="text-small text-muted">Reemplazar por fotografía autorizada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-gallery-category="galletas">
+            <img src="assets/img/gallery/galeria-galletas.svg" alt="Placeholder para fotografía real de galletas decoradas" loading="lazy" data-fallback="assets/img/placeholders/product-placeholder.svg">
+            <figcaption class="gallery-item__caption">
+              <strong>Galletas decoradas [SUPUESTO]</strong>
+              <p class="text-small text-muted">Reemplazar por fotografía autorizada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-gallery-category="brownies">
+            <img src="assets/img/gallery/galeria-brownies.svg" alt="Placeholder para fotografía real de brownies" loading="lazy" data-fallback="assets/img/placeholders/product-placeholder.svg">
+            <figcaption class="gallery-item__caption">
+              <strong>Brownies [SUPUESTO]</strong>
+              <p class="text-small text-muted">Reemplazar por fotografía autorizada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-gallery-category="regalos">
+            <img src="assets/img/gallery/galeria-regalos.svg" alt="Placeholder para fotografía real de paquete de regalo dulce" loading="lazy" data-fallback="assets/img/placeholders/product-placeholder.svg">
+            <figcaption class="gallery-item__caption">
+              <strong>Paquetes de regalo [SUPUESTO]</strong>
+              <p class="text-small text-muted">Reemplazar por fotografía autorizada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-gallery-category="eventos">
+            <img src="assets/img/gallery/galeria-eventos.svg" alt="Placeholder para fotografía real de mesa dulce para evento" loading="lazy" data-fallback="assets/img/placeholders/product-placeholder.svg">
+            <figcaption class="gallery-item__caption">
+              <strong>Mesas dulces [SUPUESTO]</strong>
+              <p class="text-small text-muted">Reemplazar por fotografía autorizada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-gallery-category="pasteles">
+            <img src="assets/img/gallery/galeria-postres-vaso.svg" alt="Placeholder para fotografía real de postres en vaso" loading="lazy" data-fallback="assets/img/placeholders/product-placeholder.svg">
+            <figcaption class="gallery-item__caption">
+              <strong>Postres en vaso [SUPUESTO]</strong>
+              <p class="text-small text-muted">Reemplazar por fotografía autorizada.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__title">thayspostres</p>
+          <p>Postres personalizados para regalar, celebrar y endulzar momentos especiales.</p>
+          <p class="text-small">Datos como teléfono, ubicación, horarios, precios, disponibilidad y métodos de pago deben validarse antes de publicar.</p>
+        </div>
+
+        <div>
+          <h2 class="sr-only">Secciones</h2>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="catalogo.html">Catálogo</a></li>
+            <li><a class="footer__link" href="pedidos.html">Pedidos personalizados</a></li>
+            <li><a class="footer__link" href="galeria.html">Galería</a></li>
+            <li><a class="footer__link" href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="sr-only">Contacto</h2>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="#" data-whatsapp="general">WhatsApp: <span data-contact-field="whatsappDisplay">[SUPUESTO A VALIDAR]</span></a></li>
+            <li><a class="footer__link" href="#" data-social="instagram">Instagram: <span data-contact-field="instagramReference">[SUPUESTO A VALIDAR]</span></a></li>
+            <li><a class="footer__link" href="#" data-social="facebook">Facebook</a></li>
+            <li><span class="footer__link">Ubicación: <span data-brand-field="locationApprox">[SUPUESTO A VALIDAR]</span></span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-current-year></span> thayspostres. Sitio estático preparado para producción.</span>
+        <span>Sin precios, horarios ni dirección exacta no validada.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="#" data-whatsapp="general" aria-label="Contactar por WhatsApp">
+    <span aria-hidden="true">☘</span>
+  </a>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data-products.js"></script>
+  <script src="assets/js/whatsapp.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/catalog.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
